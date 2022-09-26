@@ -202,7 +202,7 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
         gjay = size(os.path.getsize(file_upload))
         button = []
         button.append(
-            [pyrogram.InlineKeyboardButton(text="☁️ 𝐃𝐫𝐢𝐯𝐞 𝐋𝐢𝐧𝐤", url=f"{gauti}")]
+            [pyrogram.InlineKeyboardButton(text="🌟𝐃𝐫𝐢𝐯𝐞 𝐋𝐢𝐧𝐤🌟", url=f"{gauti}")]
         )
         if INDEX_LINK:
             indexurl = f"{INDEX_LINK}/{os.path.basename(file_upload)}"
@@ -270,7 +270,7 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
         LOGGER.info(gjay)
         button = []
         button.append(
-            [pyrogram.InlineKeyboardButton(text="☁️ 𝐃𝐫𝐢𝐯𝐞 𝐋𝐢𝐧𝐤", url=f"{gautii}")]
+            [pyrogram.InlineKeyboardButton(text="🌟𝐃𝐫𝐢𝐯𝐞 𝐋𝐢𝐧𝐤🌟", url=f"{gautii}")]
         )
         if INDEX_LINK:
             indexurl = f"{INDEX_LINK}/{os.path.basename(file_upload)}/"
