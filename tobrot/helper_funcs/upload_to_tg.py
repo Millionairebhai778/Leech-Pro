@@ -218,8 +218,8 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
         button_markup = pyrogram.InlineKeyboardMarkup(button)
         await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
         await messa_ge.reply_text(
-            f"📤: 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 `{os.path.basename(file_upload)}` <a href='tg://user?id={g_id}'>🪄</a>\n🔮  𝐒𝐈𝐙𝐄: {gjay} 
-            \n❤️‍🔥𝐎𝐰𝐧𝐞𝐝 𝐛𝐲: @FILMWORLDOFFICIA",
+            f"📤: 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 `{os.path.basename(file_upload)}` <a href='tg://user?id={g_id}'>🪄</a>\n🔮  𝐒𝐈𝐙𝐄: {gjay} \n❤️‍🔥𝐎𝐰𝐧𝐞𝐝 𝐛𝐲: @FILMWORLDOFFICIA", 
+            
             reply_markup=button_markup,
         )
         os.remove(file_upload)
@@ -287,8 +287,8 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
         button_markup = pyrogram.InlineKeyboardMarkup(button)
         await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
         await messa_ge.reply_text(
-            f"📤: 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 `{os.path.basename(file_upload)}` <a href='tg://user?id={g_id}'>🪄</a>\n🔮  𝐒𝐈𝐙𝐄: {gjay} 
-            \n❤️‍🔥𝐎𝐰𝐧𝐞𝐝 𝐛𝐲: @FILMWORLDOFFICIA",
+            f"📤: 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 `{os.path.basename(file_upload)}` <a href='tg://user?id={g_id}'>🪄</a>\n🔮  𝐒𝐈𝐙𝐄: {gjay} \n❤️‍🔥𝐎𝐰𝐧𝐞𝐝 𝐛𝐲: @FILMWORLDOFFICIA",
+            
             reply_markup=button_markup,
         )
         shutil.rmtree(file_upload)
