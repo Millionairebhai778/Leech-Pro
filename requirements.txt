@@ -1,4 +1,4 @@
-aiohttp==3.8.1
+aiohttp
 aria2p==0.9.1
 hachoir
 Pillow
