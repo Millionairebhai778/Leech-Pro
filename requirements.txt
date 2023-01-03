@@ -1,4 +1,4 @@
-aiohttp
+aiohttp==3.8.1 
 aria2p==0.9.1
 hachoir
 Pillow
@@ -15,5 +15,7 @@ lxml
 requests
 messages
 js2py
+Flask==2.2.2
+gunicorn==20.1.0
 
 
